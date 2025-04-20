@@ -14,7 +14,8 @@ Este proyecto es una galería de imágenes hecha con HTML, CSS (Bootstrap) y Jav
 
 - `index.html`: Página principal con la galería
 - `detail.html`: Página de detalle de imagen
-- `contact.html`: Formulario de contacto
+- `gallery.html`: Galeria de imagenes
+- `about_us.html`: Formulario de contacto y infromación del equipo
 - `js/script.js`: Lógica de interacción (galería, filtro, detalle, validación)
 - `assets/img/`: Imágenes usadas en la galería
 
@@ -22,7 +23,7 @@ Este proyecto es una galería de imágenes hecha con HTML, CSS (Bootstrap) y Jav
 
 1. Descarga o clona el repositorio.
 2. Abre `index.html` en tu navegador.
-3. Navega por la galería y prueba el formulario en `contact.html`.
+3. Navega por la galería y prueba el formulario en `about_us.html`.
 
 ## Créditos
 
