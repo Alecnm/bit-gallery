@@ -2,6 +2,8 @@
 
 Este proyecto es una galería de imágenes hecha con HTML, CSS (Bootstrap) y JavaScript. Permite filtrar imágenes por categoría, ver detalles de cada imagen y enviar un formulario de contacto con validación básica.
 
+Enlace a la página: https://alecnm.github.io/bit-gallery/
+
 ## Características
 
 - Galería de imágenes dividida por categorías
