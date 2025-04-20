@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Detalle de Imagen - Galería Interactiva</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="bg-dark text-white p-3">
+    <div class="container">
+      <h1 class="h3">Galería Interactiva</h1>
+      <nav>
+        <ul class="nav">
+          <li class="nav-item"><a class="nav-link text-white" href="index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="gallery.html">Galería</a></li>
+          <li class="nav-item"><a class="nav-link text-white" href="about_us.html">Sobre Nosotros</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container my-5">
+    <section id="image-detail" class="text-center">
+      <h2 class="mb-4">Detalle de Imagen</h2>
+      <img src="assets/img/imagen1.jpg" alt="Imagen seleccionada" class="img-fluid mb-3" id="detailImage" />
+      <p id="imageDescription" class="lead">Descripción de la imagen seleccionada aparecerá aquí.</p>
+      <p id="imageAuthor" class="text-muted">Autor: Nombre del autor</p>
+      <a href="gallery.html" class="btn btn-primary mt-3">Volver a la galería</a>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Galería Interactiva. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

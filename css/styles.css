@@ -1,0 +1,87 @@
+/* Paleta de colores y tipografía */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* Encabezado */
+  header {
+    border-bottom: 4px solid #0d6efd;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  /* Navegación */
+  .nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+  }
+  
+  /* Miniaturas de galería */
+  .thumbnail {
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Filtros */
+  #categoryFilter {
+    max-width: 300px;
+  }
+  
+  /* Detalle de imagen */
+  #imageDetail img {
+    border-radius: 8px;
+  }
+  
+  #imageDetail h2 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  /* Formulario de contacto */
+  form input,
+  form textarea {
+    border-radius: 6px;
+  }
+  
+  form input:invalid,
+  form textarea:invalid {
+    border-color: red;
+  }
+  
+  form input:valid,
+  form textarea:valid {
+    border-color: green;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #212529;
+    color: #fff;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive ajustes */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 1.2rem;
+    }
+  
+    .nav-link {
+      font-size: 0.9rem;
+    }
+  
+    .thumbnail {
+      margin-bottom: 1rem;
+    }
+  }
+  
